@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: #333;
+}
+.area{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    overflow: hidden;
+    background-color: #ddd;
+    padding: 20px 0;
+    
+}
+.logo {
+    float: left;
+    width: 270px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.logo img{
+    width: 100%;
+}
+.menu {
+    float: right;
+    width: 700px;
+}
+.menu ul {
+    list-style: none;
+    text-align: right;
+    margin-top: 25px;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 22px;
+    padding: 10px 15px;
+    display: block;
+}
+.menu ul li a:hover{
+    background-color: tomato;
+    color:#fff;
+}
+.banner{}
+.banner img {
+    width: 100%;
+}
+.services {}
+.title{}
+.title h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.services-box{
+    overflow: hidden;
+}
+.service-part{
+    background-color: teal;
+    padding: 20px;
+    width: 320px;
+    float: left;
+    margin-right: 20px;
+}
+.service-part:last-child{
+    margin-right: 0;
+}
+
+.service-part h4{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    margin-bottom: 25px;;
+}
+.service-part img{
+    width:100%;
+}
+.service-part p {
+    color: #fff;
+    font-size: 18px;
+    margin: 12px 0;
+}
+.service-part a, .about-left a{
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: navajowhite;
+    color: #fff;
+    background-color: tomato;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+}
+.about{
+    overflow: hidden;
+    padding: 30px 0;
+}
+.about-left{
+    float: left;
+    width: 700px;
+    margin-right: 25px;
+}
+.about-left h4, .about-menu h4 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.about-left p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.about-menu {
+    float: right;
+    width: 270px;
+}
+.about-menu ul {
+    list-style: none;
+}
+.about-menu ul li{
+    border: 1px solid #ddd;
+    padding-bottom:5px;
+    margin-bottom:5px;
+}
+.about-menu ul li:last-child{
+    border-bottom: 0;
+}
+.about-menu ul li a{
+    color: #333;
+    text-decoration: none;
+    font-weight:bold;
+}
+.footer{
+    text-align: center;
+    background-color: teal;
+    padding: 20px 0;
+}
+.footer p{
+    font-weight:bold;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 19px;
+
+}
